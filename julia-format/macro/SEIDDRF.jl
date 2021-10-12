@@ -9,8 +9,8 @@ sigma = @ODEmodel(
   Di'(t) = theta_i * phi_i * i(t) - sgm_d * De(t) - g_d * Di(t) - mu_d * Di(t) - mu0 * Di(t),
   r'(t) = g * i(t) + g_d * Di(t) - mu0 * r(t),
   f'(t) = mu_i * i(t) + mu_d * Di(t),
-  y1'(t) = s(t),
-  y2'(t) = i(t),#
-  y3'(t) = f(t),
-  y4'(t) = De(t)
+  y1(t) = s(t),
+  y2(t) = i(t),#
+  y3(t) = f(t),
+  y4(t) = De(t)
 ) 

@@ -32,11 +32,11 @@ sigma := subs(known_data, [
   x13'(t) = a1 * x10(t) * x6(t) - c_6a * x13(t) - a3 * x2(t) * x13(t) + e_2a * x14(t),
   x14'(t) = a1 * x11(t) * x7(t) - e_2a * kv * x14(t),
   x15'(t) = c_2c + c_1c * x7(t) - c_3c * x15(t),
-  y1'(t) = x2(t),
-  y2'(t) = x10(t) + x13(t),
-  y3'(t) = x9(t),
-  y4'(t) = x1(t) + x2(t) + x3(t),
-  y6'(t) = x12(t),
-  y5'(t) = x7(t)
+  y1(t) = x2(t),
+  y2(t) = x10(t) + x13(t),
+  y3(t) = x9(t),
+  y4(t) = x1(t) + x2(t) + x3(t),
+  y6(t) = x12(t),
+  y5(t) = x7(t)
 ]):
 

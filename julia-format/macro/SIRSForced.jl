@@ -6,6 +6,6 @@ sigma = @ODEmodel(
   r'(t) = nu * i(t) - (mu + g) * r(t),
   x1'(t) = -M * x2(t),
   x2'(t) = M * x1(t), # this one works well: x2=> x2^2
-  y1'(t) = i(t),
-  y2'(t) = r(t)
+  y1(t) = i(t),
+  y2(t) = r(t)
 )

@@ -5,7 +5,7 @@ sigma = @ODEmodel(
   R'(t) = k,
   Ib'(t) = 0,
   Gb'(t) = 0,
-  y1'(t) = G(t),
-  y2'(t) = Ib(t),
-  y3'(t) = Gb(t)
+  y1(t) = G(t),
+  y2(t) = Ib(t),
+  y3(t) = Gb(t)
 )

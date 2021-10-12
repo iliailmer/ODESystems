@@ -9,6 +9,6 @@ sigma = @ODEmodel(
   Q'(t) = mu1 * A(t) - (k2 + d5) * Q(t),
   Jj'(t) = k2 * Q(t) + mu2 * In(t) - (g2 + d6) * Jj(t), 
   N'(t) = 0,
-  y1'(t) = Q(t),
-  y2'(t) = Jj(t)
+  y1(t) = Q(t),
+  y2(t) = Jj(t)
 )

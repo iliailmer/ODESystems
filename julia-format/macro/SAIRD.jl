@@ -8,6 +8,6 @@ sigma = @ODEmodel(
   R'(t) = gam * In(t),
   Dd'(t) = dlt * In(t),
   N'(t) = 0,
-  y1'(t) = In(t),
-  y2'(t) = R(t)
+  y1(t) = In(t),
+  y2(t) = R(t)
 ) 

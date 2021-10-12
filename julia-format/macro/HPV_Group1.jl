@@ -9,7 +9,7 @@ sigma = @ODEmodel(
     IOF'(t) = SF(t) * IOGM(t) * betaGOMF + SF(t) * IOGM(t) * betaOOMF + SF(t) * IGM(t) * betaGOMF + SF(t) * IOM(t) * betaOOMF - IOGM(t) * IOF(t) * betaGGMF - IOGM(t) * IOF(t) * betaOGMF - IGM(t) * IOF(t) * betaGGMF - IOM(t) * IOF(t) * betaOGMF - gammaOF * IOF(t) - IOF(t) * mu - IOF(t) * nuOGF + gammaGF * IOGF(t),
     IGF'(t) = SF(t) * IOGM(t) * betaGGMF + SF(t) * IOGM(t) * betaOGMF + SF(t) * IGM(t) * betaGGMF + SF(t) * IOM(t) * betaOGMF - IOGM(t) * IGF(t) * betaGOMF - IOGM(t) * IGF(t) * betaOOMF - IGM(t) * IGF(t) * betaGOMF - IOM(t) * IGF(t) * betaOOMF + gammaOF * IOGF(t) - gammaGF * IGF(t) - IGF(t) * mu - IGF(t) * nuGOF,
     IOGF'(t) = IOGM(t) * IOF(t) * betaGGMF + IOGM(t) * IOF(t) * betaOGMF + IOGM(t) * IGF(t) * betaGOMF + IOGM(t) * IGF(t) * betaOOMF + IGM(t) * IOF(t) * betaGGMF + IGM(t) * IGF(t) * betaGOMF + IOM(t) * IOF(t) * betaOGMF + IOM(t) * IGF(t) * betaOOMF + IOF(t) * nuOGF - gammaGF * IOGF(t) - gammaOF * IOGF(t) - IOGF(t) * mu + IGF(t) * nuGOF,
-    y1'(t) = IGM(t) + IOGM(t),
-    y2'(t) = IOM(t) + IOGM(t),
-    y3'(t) = IOGM(t)
+    y1(t) = IGM(t) + IOGM(t),
+    y2(t) = IOM(t) + IOGM(t),
+    y3(t) = IOGM(t)
 )

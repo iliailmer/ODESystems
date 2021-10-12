@@ -8,8 +8,8 @@ sigma = @ODEmodel(
   a'(t) = 0,
   b'(t) = 0,
   d'(t) = 0,
-  y1'(t) = x5(t),
-  y2'(t) = a(t),
-  y3'(t) = b(t),
-  y4'(t) = d(t)
+  y1(t) = x5(t),
+  y2(t) = a(t),
+  y3(t) = b(t),
+  y4(t) = d(t)
 )

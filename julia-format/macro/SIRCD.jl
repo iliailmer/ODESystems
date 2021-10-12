@@ -7,5 +7,5 @@ sigma = @ODEmodel(
   R'(t) = r * i(t),
   Cc'(t) = p * S(t) - q * Cc(t),
   D'(t) = mu * i(t),
-  y1'(t) = i(t)
+  y1(t) = i(t)
 )

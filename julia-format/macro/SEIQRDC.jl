@@ -9,7 +9,7 @@ q'(t) = dlt * i(t) - l(t) * q(t) - k(t) * q(t) - mu * q(t),
 r'(t) = l(t) * q(t) - mu * s(t),
 d0'(t) = k(t) * q(t),
 c'(t) = a * s(t) - mu * c(t) - tau0 * c(t),
-y1'(t) = c(t)
-# y2'(t) = q(t),
-# y3'(t) = d0(t)
+y1(t) = c(t)
+# y2(t) = q(t),
+# y3(t) = d0(t)
 ) 

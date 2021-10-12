@@ -5,6 +5,6 @@ sigma = @ODEmodel(
   In'(t) = nu * E(t) - a * In(t),
   N'(t) = 0,
   Cu'(t) = nu * E(t),
-  y1'(t) = Cu(t),
-  y2'(t) = N(t)
+  y1(t) = Cu(t),
+  y2(t) = N(t)
 )

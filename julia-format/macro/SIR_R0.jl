@@ -5,6 +5,6 @@ sigma = @ODEmodel(
   In'(t) = b * In(t) * S(t) - g * In(t),
   R'(t) = g * In(t),
   AUX'(t) = 0,
-  y1'(t) = In(t),
-  y2'(t) = b // g + AUX(t)
+  y1(t) = In(t),
+  y2(t) = b // g + AUX(t)
 ]

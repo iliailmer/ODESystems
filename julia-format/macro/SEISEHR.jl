@@ -9,5 +9,5 @@ sq'(t) = c * q  * (1 - b) * s(t) * (i(t) + theta0 * e(t)) - lmb * sq(t),
 eq'(t) = c * q  * b * s(t) * (i(t) + theta0 * e(t)) - dlt_q * eq(t),
 h'(t) = dlt_i * i(t) + dlt_q * eq(t) - (alpha + g_h) * h(t),
 r'(t) = g_i * i(t) + g_h * h(t),
-y1'(t) = i(t) + r(t)
+y1(t) = i(t) + r(t)
 ) 

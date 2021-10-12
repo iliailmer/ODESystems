@@ -10,7 +10,7 @@ sigma = @ODEmodel(
   Tt'(t) = mu * A(t) + nu * R(t) - (sgm + ta) * Tt(t),
   Hh'(t) = lam * In(t) + rho * Dd(t) + kappa * A(t) + ksi * R(t) + sgm * Tt(t),
   E'(t) = ta * Tt(t),
-  y1'(t) = Dd(t) + R(t) + Tt(t),
-  y2'(t) = R(t),
-  y3'(t) = Tt(t) 
+  y1(t) = Dd(t) + R(t) + Tt(t),
+  y2(t) = R(t),
+  y3(t) = Tt(t) 
 )

@@ -7,5 +7,5 @@ e'(t) = b * s(t) * i(t) // n - k * e(t),
 i'(t) = k * e(t) - g * i(t),
 r'(t) = g * i(t),
 c'(t) = k * e(t),
-y1'(t) = c(t)
+y1(t) = c(t)
 ) 

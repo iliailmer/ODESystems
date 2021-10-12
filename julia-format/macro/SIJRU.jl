@@ -7,5 +7,5 @@ sigma = @ODEmodel(
   Jj'(t) = a * (1 - ksi) * S(t) * (In(t) + Jj(t)) - eta * Jj(t), 
   R'(t) = b * In(t),
   U'(t) = eta * Jj(t),
-  y1'(t) = In(t)
+  y1(t) = In(t)
 )
